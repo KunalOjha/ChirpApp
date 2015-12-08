@@ -10,4 +10,4 @@ app.controller('mainController', function($scope){
     $scope.posts.push($scope.newPost);
     $scope.newPost = {created_by: '', text: '', created_at: ''};
   };
-});
+}); 
